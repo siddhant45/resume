@@ -150,10 +150,6 @@
       margin: 0;
     }
      
-    .box {
-  	width:800px;
-  	margin:0 auto;
-    }
     .container {
       position: fixed;
       top: 50%;
@@ -183,21 +179,6 @@
       outline: 1px solid #48788B;
     }
     
- 
-    #wrapper {
-    	min-height:100%;
-    	position:relative;
-    }
-
-    #footer {
-    	background:#ffab62;
-    	width:100%;
-    	height:100px;
-    	position:absolute;
-    	bottom:0;
-    	left:0;
-    }
-
     .btn {
       background-color: #CC231E;
       border: 1px solid #CC231E;
@@ -250,26 +231,23 @@
   </style>
 </head>
 <body>
-  <div id="wrapper">
-		<div class="container">
+  <div class="container">
       <h1>SHREYAS MOUDGALYA</h1>
       <h3>Use Speak Button (or) Type Directly and Press Enter!</h3>
 
       <input id="speech" type="text" style="color:white;">
       <button id="rec" class="btn" style="color:white;"><b>Speak</b></button>
       <div id="spokenResponse" class="spoken-response">
-      <div class="spoken-response__text"></div>
-    </div>
-		<div id="footer">
-		  <div class="box">
-				<h2>This is your tearaway footer</h2>
-				<p>It will stick to the bottom of the viewport on short pages, or stretch down on long pages.</p>
-			</div><!-- .box -->
-		</div>
+      		<div class="spoken-response__text"></div>
+      </div>
+
+	<div id="footer">
+		<div class="box">
+			<h2>This is your tearaway footer</h2>
+			<p>It will stick to the bottom of the viewport on short pages, or stretch down on long pages.</p>
+		</div><!-- .box -->
 	</div>
   </div>
-  
-
   <link href="https://fonts.googleapis.com/css?family=Titillium+Web:200" rel="stylesheet" type="text/css">
 </body>
 </html>
